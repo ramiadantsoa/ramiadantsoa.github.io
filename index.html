@@ -1,98 +1,230 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
-
+<!DOCTYPE html>
+<html lang="en">
 <head>
-  <title>Tanjona Ramiadantsoa</title>
-  <meta name="description" content="free website template" />
-  <meta name="keywords" content="enter your keywords here" />
-  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
-  <link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'/>  
-  <link rel="stylesheet" type="text/css" href="css/style.css" />
+<title>Tanjona's page</title>
+<meta charset="utf-8">
+ <meta http-equiv="X-UA-Compatible" content="IE=edge">
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<link rel="stylesheet" href="style.css" type="text/css"/>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </head>
-
+</head>
 <body>
-  <div id="main">
-	
-	<div id="header">  
-	  
-	  <div id="menubar_container">
-		
-		<div id="menubar">
-	    
-		  <div id="welcome">
-	        <h1><a href="#">Tanjona Ramiadantsoa</a></h1>
-	      </div><!--close welcome-->
-		
-          <div id="menu_items">
-	        <ul id="menu">
-              <li class="current"><a href="index.html">Home</a></li>
-              <li><a href="research.html">Research</a></li>
-              <li><a href="publications.html">Publications</a></li>
-              <li><a href="cv.html">CV</a></li>
-              <li><a href="contact.html">Contact Us</a></li>
-            </ul>
-          </div><!--close menu-->
-		
-        </div><!--close menubar-->	
-		
-      </div><!--close menubar_container-->	
-	
-	</div><!--close header-->		
-	
-	<div id="site_content">	
+<div class="container">
 
-      <div id="header_image"></div>	  	  
-	 
-	  <div id="content">
-        
-		<h1>Welcome to my personal Website</h1> 
-	    <p> I am a theoretical ecologist with a main interest of understanding how environmental change in space or time and their interactions affect population and community structure. My main motivation is driven by conservation issues—elevated extinction risks for many fauna and flora. I address those questions through the lens of a: physiologist, ecologist, and evolutionary biologist. </p>
+	<nav style="font-size:1.5em; margin:0em 3em 1em;" class="navbar navbar-inverse navbar-fixed-top" id="navigationbar">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar1" aria-expanded="false" aria-controls="navbar1">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          
+        </div>
+        <div id="navbar1" class="collapse navbar-collapse">
+          <ul style="margin-left:10em;" id="navigation" class="nav navbar-nav">
+            <li style="display:inline-block; width:4em;"><a href="#about">About</a></li>
+            <li style="display:inline-block; width:5em;"><a href="#research">Research</a></li>
+            <li style="display:inline-block; width:6em;"><a href="#publications">Publications</a></li>
+            <li style="display:inline-block; width:5em;"><a href="#outreach">Outreach</a></li>
+            <li style="display:inline-block; width:8em;"><a href="#contact">Contact & CV</a></li>
+          </ul>
+        </div>
+      </div>
+	</nav>
+<div style="line-height:2em; font-size:1.2em;" class="content">
+<div><img class="img-responsive" src="images/map_2.png" alt="Map of the world" style="padding-top:3em; max-width:1000px;"> </div>
 
-		<p> I have a background in pure Mathematics in Madagascar, I did my PhD with Ilkka Hanksi and Otso Ovaskainen at the University of Helsinki, then a postdoc with Emma Goldberg at the University of Minnesota, and currently I am one of the four postdocs at the University of Wisconsin-Madison in the project: Abrupt Changes in Ecological systems lead by Monica Turner, Anthony Ives, Steve Carpenter, Jack Williams, and Chris Kucharick.</p>			
+<div> <h3 style="font-weight:normal; text-align:center; background-color:#00b3b3; color:white; padding:0.5em;"> A generalist approach to specialization </h3> 
+<div id="about"></div>
+</div>
+
+<div> <!-- start of about section-->
+
+	<div style="margin:4em;" class="row"> <!-- all elements inside this divider are in the same row-->
+	<h3> About </h3><!-- heading-->
+		<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12"> <!-- styling for different screen sizes. One column in a row. maximum 12 columns. if you want to hide some section in mobile, add hidden-xs-->
+		<!-- Content comes here-->
+		<img class="img-responsive" src="images/photo_tanjona_ramiadantsoa.jpg" alt="Tanjona" style="padding:0.25em; max-width:175px;">
+		</div>
+
+		<div style="margin-top:0em;" > <!-- styling for different screen sizes, if you want to hide some section in mobile, add hidden-xs-->
+		<!-- Content comes here-->
+		<h4 style="color:#00b3b3;">Tanjona Ramiadantsoa</h4>
+		<p> My main research topic is to understand how environmental degradation namely habitat destruction and global warming affects biodiversity. 
+		A major empirical motivation is the patterns of loss and fragmentation of natural forest in Madagascar and their consequences on its unique biodiversity. 
+		I mainly use and develop mathematical models based on physiological, ecological, and evolutionary principle to understand the pattern and process of biodiversity loss.</p>
+
+			
+		<p>I obtained a MSc in applied mathematics under the supervision of Arthur Randrianarivony at the University of Antananarivo in Madagascar. 
+		Afterwards, I did a PhD with Ilkka Hanksi and Otso Ovaskainen at the University of Helsinki in Finland followed by a postdoc with Emma Goldberg at the University of Minnesota, USA. 
+		Currently, I am doing a second postdoc at the University of Wisconsin-Madison working on Abrupt Changes in Ecological System. It is multidisciplinary project lead by Monica Turner and involves three postdocs: Zak  Ratajczak, Allison Stegner, Jien Zhang, and four coPIs: Steve Carpenter, Anthony Ives, Chris Kucharick, and Jack Williams.
+		</p><!-- paragraph-->
+		</div>
 		
-		<div class="content_item_home">  	  
-		  
-		  <h3>Another Heading</h3>
-		  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed adipiscing rhoncus odio. Nulla pellentesque purus purus, in convallis ipsum viverra in. Proin at sapien vitae metus luctus faucibus ut eget nunc. Sed sollicitudin vestibulum risus a laoreet. Maecenas viverra diam risus, a porta odio sodales vel. Donec non varius magna, vitae cursus purus. Nulla facilisi. Integer semper ligula felis, eu tempor nisl placerat luctus. Donec rutrum risus eu enim tempus, nec ullamcorper tortor vulputate. Pellentesque in metus ipsum. Quisque adipiscing, ipsum a tristique condimentum, mauris quam consequat dui, eu eleifend lectus lorem euismod nibh. Integer quis pulvinar enim. Phasellus iaculis dui id tincidunt mollis. Curabitur at leo vestibulum, laoreet purus aliquet, blandit justo. Integer a diam consectetur, feugiat nisl vitae, rhoncus neque. Nam ac diam molestie turpis sagittis dapibus vel non turpis.</p>          		  		
-		  <p>Morbi ornare neque a viverra venenatis. Donec porta a nisl in fringilla. Praesent lacinia vestibulum massa, ut dapibus ipsum imperdiet at. Donec aliquam sed nisl eu viverra. Suspendisse potenti. Fusce aliquet tempor pulvinar. Vivamus volutpat ornare porttitor. Donec suscipit aliquam lorem, quis pharetra nisl hendrerit et. Nulla et odio arcu. Praesent consectetur quis turpis eu semper. Morbi arcu leo, aliquet ut neque vitae, imperdiet pretium arcu. Proin ullamcorper tempus orci. Duis pharetra purus ac egestas cursus.</p>
+	</div>
+	<!-- <br> -->
+<div id="research"></div>
+<br>
+</div> <!-- end of about section-->
+
+<div> <!-- start of research section-->
+
+	<div style="margin:3em;" class="row"> <!-- all elements inside this divider are in the same row-->
+	<h3> Research </h3><!-- heading-->
+
+		<h4 style = "color:#00b3b3;"> Current work </h4>
+		<p>My postdoctoral works involves developing models to understand and predict abrupt changes in ecologicla systems see <a target="_blank" href="http://www.google.com">add_true_link</a> </p>
+
+		<div style="color:#00b3b3; margin-top:3em;"> </div>
+
+		<div style="margin-top:0.25em;"> 
+		<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12"> 
+			<img class="img-responsive align-left" src="images/dodo.png" alt="photo of a dodo" style="padding:0.25em; max-width:225px;">
+		</div>
+		<h4 style="color:#00b3b3;">Specialist's extinction threshold </h4>
+			<p> Species with narrow niche breadth are expected to be most vulnerable to habitat destruction.
+			The minimum amount of habitat necessary for the persistence of species is called extinction threshold.
+			My research involve understanding factors that influence species' extinction threshold and the waiting time until actual extinction.
+			I explore to understand how the extinction threshold changes as a function of endogeneous processes such as niche breadth, niche overlap, types of competition, dispersal ability, and exogeneous processes such as the rate of habitat loss, pattern and process of habitat fragmentation, of local and regional stochasticity.
+			More generally, this is about generating an 'general' species area relationship by adding more assumptions.
+			</p><!-- paragraph-->
+
+			<strong>Publications:</strong> 
+			&nbsp;	
+			Ramiadantsoa, T., Hanski I., and Ovaskainen, O. (under review) Responses of Generalist and Specialist Species to Fragmented Landscapes.
+		</div>
+	</div>
+	
+	<div style="margin:3em;" class="row"> <!-- all elements inside this divider are in the same row-->
+
+		<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12"> <!-- styling for different screen sizes. One column in a row. maximum 12 columns. if you want to hide some section in mobile, add hidden-xs-->
+		<!-- Content comes here-->
+			<img class="img-responsive" src="images/dodo.jpg" alt="short description" style="padding:0.25em; max-width:175px;">
+		</div>
+
+		<div style="margin-top:0.25em;"> <!-- styling for different screen sizes, if you want to hide some section in mobile, add hidden-xs-->
+		<!-- Content comes here-->
+		<h4 style="color:#00b3b3;">Body size and thermal performance curve</h4>
+			<p> 
+			The thermal performance curve describes the performance of a species/population/individual as a function of ambient temperature.
+			Knowing the thermal niche can be essential in understanding how species/population/individual can be affected by warming (or cooling) environment.
+			Despite the ubiquitous of body size and temperature, its role in shaping thermal performance curve is unknown.
+			I use energy budget theory to understand how thermodynamical, physiological, and ecological processes.
+			More generally, here we construct a generalized fitness landscape with body size and temperature as explanatory variables. 
+			</p><!-- paragraph-->
+ 		</div>	
+	</div>	
+
+	<div style="margin:3em;" class="row"> <!-- all elements inside this divider are in the same row-->
+
+		<div style="margin-top:0.25em;"> 
+		<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12"> 
+			<img class="img-responsive" src="images/dodo.jpg" alt="photo of a dodo" style="padding:0.25em; max-width:175px;">
+		</div>
+		<h4 style="color:#00b3b3;">Phylogeography and radiation</h4>
+			<p> Heterogeneous environment tends to harbor higher biodiversity as, intuitively, it allows to pack a large number of specialist species.	
+			Most of my work involves developing statistical method to find correlation between spatial and temporal heterogeneities and diversification rates. 	
+			My work extends existing phylogenetic comparative methods for geographic distribution (and more generally discrete character states) to accommodate for more elaborate macroevolutionary model. 
+			I rely on Approximate Bayesian Computation to fit model to data.
+			The use of ABC is also a challenge to expand summary statistics for model adequacy.
+			 </p><!-- paragraph-->
+		</div>
+	</div>
+
+		<div style="margin:3em;" class="row"> <!-- all elements inside this divider are in the same row-->
+
+		<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12"> <!-- styling for different screen sizes. One column in a row. maximum 12 columns. if you want to hide some section in mobile, add hidden-xs-->
+		<!-- Content comes here-->
+			<img class="img-responsive" src="images/dodo.jpg" alt="short description" style="padding:0.25em; max-width:175px;">
+		</div>
+		<div style="margin-top:1.5em;"> <!-- styling for different screen sizes, if you want to hide some section in mobile, add hidden-xs-->
+		<!-- Content comes here-->
+		<h4 style="color:#00b3b3;">Conservation in Madagascar</h4>
+			<p> Madagascar is one of the hostest biodiversity hotspots.
+			I am interesting in describing the pattern and process of degradation of its natural habitat in the future.
+			It includes reconstructing past extant of forest and predict future using pa 
+			Understand the pattern of fragmentation in Madagascar and evaluate extinction threshold.  
+			More generally, Madagascar serves as an concrete applications and encapsulates the three previous subjects.
+			</p><!-- paragraph-->
+ 		</div>
+ 			
+	</div>	
+<div id="publications"</div>
+<br>
+</div> <!-- end of research section-->
+
+<div> <!-- start of publications section-->
+
+	<div style="margin:3em;" class="row"> <!-- all elements inside this divider are in the same row-->
+		<h3> Publications </h3><!-- heading-->
+
+		<!-- <div style="margin-top:1.5em;" class="col-lg-8 col-md-8 col-sm-8 col-xs-8">  -->
+
+			<p> <strong>Ramiadantsoa, T.</strong>, J. Sirén, and I. Hanski. 2017 (in press). Phylogenetic comparative method for geographical radiation. Annales Zoologica Fennica (special issue in honor of Ilkka Hanski)<br>
+			<strong>Ramiadantsoa, T.</strong>, O. Ovaskainen, J. Rybicki, and I. Hanski. 2015. Large-scale habitat corridors for biodiversity conservation: A forest corridor in Madagascar. PloS ONE 10: e0132126.<br>
+			<strong>Ramiadantsoa, T.</strong> 2015. Spatial processes in ecology and evolution, and implications for conservation. Doctoral dissertation, University of Helsinki.<br>
+			 </p><!-- paragraph-->
+		<!-- </div> -->	
+	</div>
+	<br>
+<div id="outreach"></div>
+</div> <!-- end of publications section-->
+
+<div> <!-- start of outreach section-->
+	<div style="margin:3em;" class="row"> <!-- all elements inside this divider are in the same row.-->
+	<h3> Outreach </h3><!-- heading-->
+	<p> My outreach activities can be categorized into two themes. 
+	The first theme is to promote science to the public, and more specifically the use and importance of Mathematics.
+	Concretely, I visit high school and give talk about my field theoretical ecology, as well as some volunteering for science, and organize workshop about Matheamtical ecology in Madagascar. </p> 
+	<p>The second theme is about cultural exchange.
+	I have served the president of Finland-Madagascar association from 201X to 201X.
+	Organizing events to promote cultural exchange and gather funcs to help underprivileged students in Madagascar.
+	Now I am part of xxx for Madagascar and Finland</p>
+	
+	</div> 
+
+
+<div id="contact"></div>
+<br>
+</div><!-- end of outreach section-->
+
+
+<div> <!-- start of contact section-->
+
+	<div style="margin:3em;" class="row"> <!-- all elements inside this divider are in the same row-->
+	<h3> Contact & CV </h3><!-- heading-->
+
+		<div style="margin-top:1.5em;" class="col-lg-8 col-md-8 col-sm-8 col-xs-8"> 
+			<p> Here's the <a target="_blank" href="Ramiadantsoa_FullCV.pdf">CV</a> <br>
+			Email address: ramiadantsoa-AT-wisc.edu <br>
+			Physical address Office: 436 Birge Hall, 430 Lincoln Dr, Madison, 53706 WI, USA <br>
+			Twitter: @TRamiadantsoa <br>
+			</p>
+		</div>
 		
-		</div><!--close content_item-->
-		
-	    <div class="sidebar_container">       
-		
-		  <div class="sidebar">
-            <div class="sidebar_item">
-              <h2>New Website</h2>
-              <p>Welcome to our new website. Please have a look around, any feedback is much appreciated.</p>
-            </div><!--close sidebar_item--> 
-          </div><!--close sidebar-->     		
-		
-		  <div class="sidebar">
-            <div class="sidebar_item">
-              <h2>Latest Update</h2>
-              <h3>January 2014</h3>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque cursus tempor enim.</p>         
-		    </div><!--close sidebar_item--> 
-          </div><!--close sidebar-->
-		
-		  <div class="sidebar">
-            <div class="sidebar_item">
-              <h3>December 2013</h3>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque cursus tempor enim.</p>         
-		    </div><!--close sidebar_item--> 
-          </div><!--close sidebar-->  
-		
-        </div><!--close sidebar_container-->			
-      
-	  </div><!--close content--> 
-	  
-	</div><!--close site_content--> 
-  
-  </div><!--close main-->
-  
-  <div id="footer">
-	  <a href="http://validator.w3.org/check?uri=referer">Valid XHTML</a> | <a href="http://fotogrph.com/">Images</a> | website template by <a href="http://www.araynordesign.co.uk">ARaynorDesign</a>
-  </div><!--close footer-->  
-  
+	</div> 
+	<!-- <br> -->
+
+</div><!-- end of contact section-->
+
+</div>
+</div>
 </body>
 </html>
+
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="js/ie10-viewport-bug-workaround.js"></script>
