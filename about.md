@@ -20,8 +20,17 @@ I am the Scientific Director of Madagascar Biodiversity Center since 2023, and a
 
 ## Research
 
-Text in progress ...
+### Landuse Change
+I study landuse change
+![](images/fig2.png)
 
+### Stochasticity
+Stochasticity and resilience
+![](images/fig3.png)
+
+
+### Miscelaneous
+A bunch of everything.
 ---
 
 ## Publications and in prep.
