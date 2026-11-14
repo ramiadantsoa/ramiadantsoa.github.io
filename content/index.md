@@ -2,7 +2,7 @@
 title: "Tanjona's Page"
 ---
 
-![Map of the world](images/map_helena.png)
+![Map of the world](/images/map_helena.png)
 
 ### Theory at the service of conservation
 
@@ -10,7 +10,7 @@ title: "Tanjona's Page"
 
 ## About
 
-![Tanjona](images/photo_tanjona_web.jpg)
+![Tanjona](/images/photo_tanjona_web.jpg)
 
 I am a Malagasy ecologist and develop mathematical and statistical models to better understand patterns and processes of biodiversity loss.
 
@@ -24,7 +24,7 @@ I work at the interface of theoretical ecology and conservation biology. I asses
 
 ### Habitat destructions and landscape heterogeneity
 
-![habitat destruction in Madagascar](images/mdg_forest.png)
+![habitat destruction in Madagascar](/images/mdg_forest.png)
 
 I use and combine the strength of spatial ecology and landscape ecology for applications in conservation biology to:
 * Quantify the loss of habitat quality, quantity, and fragmentation in Madagascar
@@ -32,7 +32,7 @@ I use and combine the strength of spatial ecology and landscape ecology for appl
 
 ### Species' niche
 
-![thermal performance curve](images/niche.png)
+![thermal performance curve](/images/niche.png)
 
 Niche is a central ecological concept that characterizes how a species responds to the environment and thus for its conservation. I am currently:
 * Using metabolic theory to understand thermal performance curve
@@ -40,7 +40,7 @@ Niche is a central ecological concept that characterizes how a species responds 
 
 ### Stochastic processes
 
-![extinction threshold as a function of niche breadth](images/stochasticity.png)
+![extinction threshold as a function of niche breadth](/images/stochasticity.png)
 
 Stochasticity can be more than a noise in shaping biodiversity patterns, I aim to:
 * Assess the relative role of deterministic and stochastic processes for community assembly, stability, and resilience
@@ -48,7 +48,7 @@ Stochasticity can be more than a noise in shaping biodiversity patterns, I aim t
 
 ### Miscellaneous
 
-![phylogenetic pattern](images/phylogeny.png)
+![phylogenetic pattern](/images/phylogeny.png)
 
 I am broadly interested in method developments, from phylogenetic comparative methods to pragmatic statistical approach to optimize fungal spores counting. I have been analyzing large spatiotemporal data: crop yield in the USA, evolution of malaria in Madagascar, and influence of political instability on the economy of Madagascar. If it isn't obvious yet, I am always excited to venture into new projects.
 
