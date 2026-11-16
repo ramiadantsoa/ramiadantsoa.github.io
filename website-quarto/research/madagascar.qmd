@@ -1,0 +1,23 @@
+---
+title: "Madagascar"
+toc: false
+bibliography: ../publications.bib
+csl: ../apa.csl
+nocite: |
+  @*
+execute:
+  echo: false
+  warning: false
+  message: false
+---
+
+![](../images/mdg_forest.png){width="70%" fig-align="center"}
+
+I combine spatial ecology and landscape ecology for conservation biology applications to quantify the loss of habitat quality, quantity, and fragmentation in Madagascar, and elaborate on how the species–area relationship (SAR) and its derivatives can estimate biodiversity loss.
+
+## Related Publications
+
+```{r}
+source("../R/pub_cards.R")
+render_pubs(bib_path = "../publications.bib", topic = "madagascar")
+```

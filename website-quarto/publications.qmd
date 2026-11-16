@@ -1,0 +1,21 @@
+---
+pagetitle: "Publications"
+toc: false
+bibliography: publications.bib
+csl: apa.csl
+nocite: |
+  @*
+execute:
+  echo: false
+  warning: false
+  message: false
+---
+
+## Publications
+
+Click a paper's *title* to visit the publisher page. *Abstract*, *Citation*, and *BibTeX* reveal the summary, formatted reference, and BibTeX entry (click again to close).
+
+```{r}
+source("R/pub_cards.R")
+render_pubs(bib_path = "publications.bib")
+```

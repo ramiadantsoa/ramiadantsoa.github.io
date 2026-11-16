@@ -1,0 +1,69 @@
+---
+title: "Outreach"
+toc: false
+---
+
+---
+title: "Outreach"
+toc: false
+---
+
+Here are a bunch of stuff, something I wrote about stuff I believe or do, and some interviews about me and my work.
+
+## My writings
+
+::: {.outreach-item}
+![](images/logo-haitao.png){.outreach-logo}
+
+::: {.outreach-body}
+#### [Book](https://ramiadantsoa.github.io/haitao/)
+Replace this line with a short description of your book or project.
+:::
+:::
+
+::: {.outreach-item}
+![](images/logo-duke.png){.outreach-logo}
+
+::: {.outreach-body}
+#### [Duke Lemur Center / ECOS](https://lemur.duke.edu/)
+Replace this line with the article title and a brief summary of what you wrote.
+:::
+:::
+
+::: {.outreach-item}
+![](images/logo-ilkka.jpg){.outreach-logo}
+
+::: {.outreach-body}
+#### [Tribute to Ilkka Hanski](https://www.luontoverkko.fi/)
+Replace this line with a short description of the piece about Ilkka.
+:::
+:::
+
+::: {.outreach-item}
+![](images/logo-explorer.png){.outreach-logo}
+
+::: {.outreach-body}
+#### [Explorer Home](https://www.youtube.com/watch?v=a8Wvlo4szcc)
+Replace this line with a short description of the video or talk.
+:::
+:::
+
+## Writing about me
+
+::: {.outreach-item}
+![](images/logo-wisc.png){.outreach-logo}
+
+::: {.outreach-body}
+#### [Scientist gives back in Madagascar](https://news.wisc.edu/from-helsinki-to-minneapolis-to-madison-scientist-gives-back-in-madagascar/)
+*University of Wisconsin–Madison News* — Feature on your path from Helsinki to Minneapolis to Madison and your quantitative ecology workshops in Madagascar.
+:::
+:::
+
+::: {.outreach-item}
+![](images/logo-devex.png){.outreach-logo}
+
+::: {.outreach-body}
+#### [Can a 'magical' insect help Madagascar battle malnutrition, deforestation?](https://www.devex.com/news/can-a-magical-insect-help-madagascar-battle-malnutrition-deforestation-109964)
+*Devex* — Coverage of black soldier fly farming research for sustainable agriculture and conservation in Madagascar.
+:::
+:::

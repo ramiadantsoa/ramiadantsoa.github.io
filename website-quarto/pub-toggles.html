@@ -1,0 +1,93 @@
+<script>
+(function() {
+  function getCard(el) {
+    while (el && !el.classList?.contains('pub-card')) el = el.parentNode;
+    return el;
+  }
+  function showPanel(card, label, html, mode) {
+    const area = card.querySelector('.toggle-area');
+    const labelEl = area.querySelector('.panel-label');
+    const contentEl = area.querySelector('.content');
+
+    const current = area.getAttribute('data-current');
+    if (current === mode && area.style.display === 'block') {
+      area.style.display = 'none';
+      area.setAttribute('data-current', '');
+      return;
+    }
+
+    labelEl.textContent = label;
+    if (mode === 'bib') {
+      contentEl.innerHTML = '';
+      const pre = document.createElement('pre');
+      pre.textContent = html;
+      contentEl.appendChild(pre);
+    } else if (mode === 'abstract') {
+      contentEl.textContent = html;
+    } else {
+      contentEl.innerHTML = html;
+    }
+    area.style.display = 'block';
+    area.setAttribute('data-current', mode);
+  }
+
+  document.addEventListener('click', function(evt) {
+    const a = evt.target.closest('a[data-action]');
+    if (!a) return;
+    const action = a.getAttribute('data-action');
+    const card   = getCard(a);
+    if (!card) return;
+    evt.preventDefault();
+
+    if (action === 'abstract' || action === 'citation' || action === 'bib') {
+      const key = card.getAttribute('data-key');
+      let label = action === 'citation' ? 'Citation' : (action === 'bib' ? 'BibTeX' : 'Abstract');
+
+      if (action === 'abstract') {
+        const payloadEl = card.querySelector('.payload-abstract');
+        const text = (payloadEl?.textContent || 'No abstract available.').trim();
+        showPanel(card, label, text, 'abstract');
+        return;
+      }
+
+      if (action === 'citation') {
+        const ref = document.querySelector('#ref-' + key);
+        const html = (ref ? ref.innerHTML : 'Citation unavailable.').trim();
+        showPanel(card, label, html, 'citation');
+        return;
+      }
+
+      if (action === 'bib') {
+        const payloadEl = card.querySelector('.payload-bibtex');
+        const text = (payloadEl?.textContent || 'No BibTeX available.').trim();
+        showPanel(card, label, text, 'bib');
+        return;
+      }
+    }
+  }, false);
+
+  document.addEventListener('click', function(evt) {
+    const btn = evt.target.closest('.copy-btn');
+    if (!btn) return;
+    const card = getCard(btn);
+    const area = card.querySelector('.toggle-area');
+    const contentEl = area.querySelector('.content');
+
+    const pre = contentEl.querySelector('pre');
+    const textToCopy = pre ? pre.textContent : contentEl.innerText;
+
+    navigator.clipboard.writeText(textToCopy).then(() => {
+      const toast = area.querySelector('.copy-toast');
+      toast.style.display = 'inline-block';
+      setTimeout(() => { toast.style.display = 'none'; }, 1200);
+    }).catch(() => {
+      const ta = document.createElement('textarea');
+      ta.value = textToCopy;
+      document.body.appendChild(ta);
+      ta.select();
+      try { document.execCommand('copy'); } catch (e) {}
+      document.body.removeChild(ta);
+    });
+  }, false);
+})();
+</script>

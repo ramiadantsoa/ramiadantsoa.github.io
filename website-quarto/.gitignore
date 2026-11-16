@@ -1,2 +1,25 @@
 /.quarto/
 **/*.quarto_ipynb
+
+# Quarto build & cache directories
+/.quarto/
+/_site/
+/docs/
+*_files/
+*_cache/
+
+# R & RStudio files
+.Rhistory
+.RData
+.Rproj.user/
+*.Rproj
+
+# Python virtual environments (just in case)
+.venv/
+venv/
+__pycache__/
+
+# OS & editor files
+.DS_Store
+.vscode/
+.idea/

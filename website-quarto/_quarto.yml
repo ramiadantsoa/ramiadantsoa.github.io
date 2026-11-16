@@ -2,12 +2,25 @@ project:
   type: website
 
 website:
-  title: "website-quarto"
+  title: "Tanjona Ramiadantsoa"
   navbar:
     left:
       - href: index.qmd
         text: Home
-      - about.qmd
+      - research.qmd
+      - publications.qmd
+      - outreach.qmd
+  page-footer:
+    left: "&copy; 2026 Ramiadantsoa"
+    center: Made with
+      [![](https://quarto.org/quarto.png){fig-alt="Quarto" width=65px}](https://quarto.org/)
+    right:
+      - icon: envelope
+        href: contact.html
+        aria-label: Contact
+      - icon: github
+        aria-label: GitHub
+        href: https://github.com/ramiadantsoa
 
 format:
   html:
@@ -16,6 +29,7 @@ format:
       - brand
     css: styles.css
     toc: true
+    include-after-body: pub-toggles.html
 
 
 

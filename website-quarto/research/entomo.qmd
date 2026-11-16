@@ -1,0 +1,23 @@
+---
+title: "Entomo"
+toc: false
+bibliography: ../publications.bib
+csl: ../apa.csl
+nocite: |
+  @*
+execute:
+  echo: false
+  warning: false
+  message: false
+---
+
+![](../images/mdg_forest.png){width="70%" fig-align="center"}
+
+Entomo
+
+## Related Publications
+
+```{r}
+source("../R/pub_cards.R")
+render_pubs(bib_path = "../publications.bib", topic = "entomo")
+```

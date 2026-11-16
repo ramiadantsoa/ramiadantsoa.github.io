@@ -1,7 +1,42 @@
 ---
-title: "website-quarto"
+title: "Tanjona Ramiadantsoa"
+pagetitle: "Tanjona Ramiadantsoa"
+subtitle: "Free range scientist"
+image: images/photo_tanjona_square.jpg
+image-alt: "Tanjona Ramiadantsoa"
+
+about:
+  template: solana
+  image-width: 26em
+  id: hero-heading
+  links:
+
+    - icon: github
+      aria-label: GitHub
+      href: https://github.com/ramiadantsoa
+    - text: "{{< ai orcid >}}"
+      href: https://orcid.org/0000-0003-4689-0267
+    - text: "{{< ai google-scholar >}}"
+      aria-label: "Google Scholar"
+      href: https://scholar.google.com/citations?user=e6V_b-QAAAAJ&hl=en&oi=ao
+page-layout: full
+
+execute:
+  freeze: false
+  echo: false
+  warning: false
+
+# header-includes: >
+#   <link rel="stylesheet" href="index.css">
+# resources:
+#   - index.css
+
 ---
 
-This is a Quarto website.
+::: {#hero-heading}
+I am a Malagasy ecologist and develop mathematical and statistical models to better understand patterns and processes of biodiversity loss. I obtained a MSc in applied mathematics with Arthur Randrianarivony at the University of Antananarivo. I did a PhD with Ilkka Hanksi and Otso Ovaskainen at the University of Helsinki. I completed a first postdoc with Emma Goldberg at the University of Minnesota, and a second postdoc with Anthony Ives and Monica G. Turner at the University of Wisconsin-Madison (ACES), and is doing a third postdoc with Benjamin Roche at the University of Montpellier on COVID-19 modeling. I am the Scientific Director of Madagascar Biodiversity Center since 2023, and a Honorary Fellow of the University of Wisconsin-Madison since 2019.
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+:::
+<!-- hero-heading -->
+
+
