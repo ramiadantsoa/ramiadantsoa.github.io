@@ -102,25 +102,6 @@ export default function Home({ published, inPrep }: { published: any[]; inPrep: 
                 </ul>
               </div>
 
-              {/* Card 2 */}
-              <div className="border border-gray-200 p-5 rounded-lg bg-white shadow-sm flex flex-col">
-                <img
-                  src="/images/niche.png"
-                  alt="thermal performance curve"
-                  className="mb-4 h-48 w-full object-contain mx-auto"
-                />
-                <h4 className="font-semibold text-lg text-teal-700 mb-2">
-                  Species&apos; niche
-                </h4>
-                <p className="text-sm text-gray-700 mb-2">
-                  Niche is a central ecological concept that characterizes how a species responds to the environment and thus for its conservation. I am currently:
-                </p>
-                <ul className="list-disc list-inside text-sm space-y-1 text-gray-700">
-                  <li>Using metabolic theory to understand thermal performance curve</li>
-                  <li>Characterizing the limits of various regeneration strategies to disturbance regime</li>
-                </ul>
-              </div>
-
               {/* Card 3 */}
               <div className="border border-gray-200 p-5 rounded-lg bg-white shadow-sm flex flex-col">
                 <img
