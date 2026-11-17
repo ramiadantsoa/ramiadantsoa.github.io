@@ -11,7 +11,7 @@ execute:
   message: false
 ---
 
-![](../images/mdg_forest.png){width="70%" fig-align="center"}
+![](../images/madagascar.png){width="70%" fig-align="center"}
 
 I combine spatial ecology and landscape ecology for conservation biology applications to quantify the loss of habitat quality, quantity, and fragmentation in Madagascar, and elaborate on how the species–area relationship (SAR) and its derivatives can estimate biodiversity loss.
 

@@ -11,9 +11,9 @@ execute:
   message: false
 ---
 
-![](../images/mdg_forest.png){width="70%" fig-align="center"}
+![](../images/covid.png){width="70%" fig-align="center"}
 
-Covid
+Covid-19
 
 ## Related Publications
 

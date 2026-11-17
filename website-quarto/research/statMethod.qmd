@@ -11,7 +11,7 @@ execute:
   message: false
 ---
 
-![](../images/mdg_forest.png){width="70%" fig-align="center"}
+![](../images/stat.png){width="70%" fig-align="center"}
 
 Stat
 

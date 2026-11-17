@@ -9,7 +9,7 @@ I work at the interface of theoretical ecology and conservation biology, assessi
 
 ::: {.g-col-12 .g-col-md-6}
 ::: {.card .h-100}
-![](images/mdg_forest.png){.card-img-top}
+![](images/madagascar.png){.card-img-top}
 
 ::: {.card-body}
 #### [Madagascar](research/madagascar.qmd){.stretched-link .text-decoration-none}
@@ -20,7 +20,7 @@ Quantifying habitat loss and fragmentation in Madagascar and using species–are
 
 ::: {.g-col-12 .g-col-md-6}
 ::: {.card .h-100}
-![](images/niche.png){.card-img-top}
+![](images/theory.png){.card-img-top}
 
 ::: {.card-body}
 #### [Theory](research/theory.qmd){.stretched-link .text-decoration-none}
@@ -31,7 +31,7 @@ Using metabolic theory to understand thermal performance curves and regeneration
 
 ::: {.g-col-12 .g-col-md-6}
 ::: {.card .h-100}
-![](images/niche.png){.card-img-top}
+![](images/stat.png){.card-img-top}
 
 ::: {.card-body}
 #### [Statistical Methods](research/statMethod.qmd){.stretched-link .text-decoration-none}
@@ -42,7 +42,7 @@ Applying statistical techniques to analyze ecological data and inform conservati
 
 ::: {.g-col-12 .g-col-md-6}
 ::: {.card .h-100}
-![](images/niche.png){.card-img-top}
+![](images/syntheses.png){.card-img-top}
 
 ::: {.card-body}
 #### [Syntheses](research/syntheses.qmd){.stretched-link .text-decoration-none}
@@ -53,7 +53,7 @@ Integrating ecological knowledge to inform conservation strategies.
 
 ::: {.g-col-12 .g-col-md-6}
 ::: {.card .h-100}
-![](images/niche.png){.card-img-top}
+![](images/covid.png){.card-img-top}
 
 ::: {.card-body}
 #### [Covid-19](research/covid.qmd){.stretched-link .text-decoration-none}
@@ -64,7 +64,7 @@ Assessing the impact of Covid-19 on ecological systems and conservation efforts.
 
 ::: {.g-col-12 .g-col-md-6}
 ::: {.card .h-100}
-![](images/niche.png){.card-img-top}
+![](images/entomo.png){.card-img-top}
 
 ::: {.card-body}
 #### [Entomo](research/entomo.qmd){.stretched-link .text-decoration-none}

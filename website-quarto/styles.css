@@ -1,9 +1,8 @@
 /* css styles */
-
 /* Outreach cards */
 .outreach-item {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   gap: 1.25rem;
   padding: 1rem;
   margin-bottom: 1rem;
@@ -11,30 +10,42 @@
   border-radius: 10px;
   background-color: #ffffff;
 }
+
+.outreach-item > p:first-child,
+.outreach-item > figure:first-child {
+  margin: 0;
+  flex: 0 0 72px;
+}
+
 .outreach-logo {
   width: 72px;
+  min-width: 72px;
   height: 72px;
-  object-fit: cover;
+  object-fit: contain;
+  padding: 4px;
   border-radius: 8px;
-  flex-shrink: 0;
+  display: block;
 }
+
+.outreach-body {
+  flex: 1;
+  min-width: 0;
+}
+
 .outreach-body h4 {
   margin: 0 0 0.25rem 0;
   font-size: 1.1rem;
 }
+
 .outreach-body p {
-  margin: 0;
+  margin: 0 0 0.4rem 0;
   font-size: 0.95rem;
   color: #4b5563;
 }
-@media (max-width: 576px) {
-  .outreach-item {
-    flex-direction: column;
-    align-items: flex-start;
-  }
+
+.outreach-body p:last-child {
+  margin-bottom: 0;
 }
-
-
 /* Publication cards & toggles */
 .pub-card {
   border: 1px solid #e5e7eb;
@@ -83,3 +94,26 @@
 
 /* Hide Pandoc's default reference list at the bottom */
 #quarto-appendix { display: none; }
+
+/* Research topic card images */
+.card .card-img-top {
+  height: 180px;
+  width: 100%;
+  object-fit: contain;
+  padding: 1.25rem 1.25rem 0.25rem 1.25rem;
+}
+
+/* Embedded CV viewer */
+.cv-container {
+  border: 1px solid #e5e7eb;
+  border-radius: 10px;
+  overflow: hidden;
+  background-color: #f9fafb;
+}
+
+.cv-container object {
+  display: block;
+  width: 100%;
+  height: 85vh;
+  min-height: 600px;
+}

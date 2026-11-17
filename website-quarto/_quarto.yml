@@ -4,12 +4,18 @@ project:
 website:
   title: "Tanjona Ramiadantsoa"
   navbar:
+    title: false
     left:
       - href: index.qmd
-        text: Home
-      - research.qmd
-      - publications.qmd
-      - outreach.qmd
+        text: About
+      - href: research.qmd
+        text: Research
+      - href: publications.qmd
+        text: Publications
+      - href: outreach.qmd
+        text: Outreach
+      - href: cv.qmd
+        text: CV
   page-footer:
     left: "&copy; 2026 Ramiadantsoa"
     center: Made with
@@ -29,6 +35,7 @@ format:
       - brand
     css: styles.css
     toc: true
+    anchor-sections: false
     include-after-body: pub-toggles.html
 
 

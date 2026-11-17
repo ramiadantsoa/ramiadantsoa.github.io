@@ -13,16 +13,18 @@ Here are a bunch of stuff, something I wrote about stuff I believe or do, and so
 ## My writings
 
 ::: {.outreach-item}
-![](images/logo-haitao.png){.outreach-logo}
+![](images/cover_mdg_crop.png){.outreach-logo}
 
 ::: {.outreach-body}
 #### [Book](https://ramiadantsoa.github.io/haitao/)
 Replace this line with a short description of your book or project.
+Replace this line with a short description of your book or project.
+
 :::
 :::
 
 ::: {.outreach-item}
-![](images/logo-duke.png){.outreach-logo}
+![](images/dlc_logo.png){.outreach-logo}
 
 ::: {.outreach-body}
 #### [Duke Lemur Center / ECOS](https://lemur.duke.edu/)
@@ -31,7 +33,7 @@ Replace this line with the article title and a brief summary of what you wrote.
 :::
 
 ::: {.outreach-item}
-![](images/logo-ilkka.jpg){.outreach-logo}
+![](images/ilkka_legacy.png){.outreach-logo}
 
 ::: {.outreach-body}
 #### [Tribute to Ilkka Hanski](https://www.luontoverkko.fi/)
@@ -40,7 +42,7 @@ Replace this line with a short description of the piece about Ilkka.
 :::
 
 ::: {.outreach-item}
-![](images/logo-explorer.png){.outreach-logo}
+![](images/explorer_home.png){.outreach-logo}
 
 ::: {.outreach-body}
 #### [Explorer Home](https://www.youtube.com/watch?v=a8Wvlo4szcc)
@@ -51,7 +53,7 @@ Replace this line with a short description of the video or talk.
 ## Writing about me
 
 ::: {.outreach-item}
-![](images/logo-wisc.png){.outreach-logo}
+![](images/uw-crest-color-web-digital.png){.outreach-logo}
 
 ::: {.outreach-body}
 #### [Scientist gives back in Madagascar](https://news.wisc.edu/from-helsinki-to-minneapolis-to-madison-scientist-gives-back-in-madagascar/)
@@ -60,7 +62,7 @@ Replace this line with a short description of the video or talk.
 :::
 
 ::: {.outreach-item}
-![](images/logo-devex.png){.outreach-logo}
+![](images/devex.png){.outreach-logo}
 
 ::: {.outreach-body}
 #### [Can a 'magical' insect help Madagascar battle malnutrition, deforestation?](https://www.devex.com/news/can-a-magical-insect-help-madagascar-battle-malnutrition-deforestation-109964)

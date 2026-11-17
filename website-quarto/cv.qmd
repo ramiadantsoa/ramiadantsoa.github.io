@@ -1,0 +1,14 @@
+---
+pagetitle: "CV"
+toc: false
+---
+
+## Curriculum Vitae
+
+[Download PDF](files/cv.pdf){.btn .btn-primary .mb-3 download="Ramiadantsoa_CV.pdf"}
+
+::: {.cv-container}
+<object data="files/cv.pdf#view=FitH" type="application/pdf" width="100%" height="850px">
+  <p>Your browser does not support inline PDFs. <a href="files/cv.pdf">Download the CV PDF here</a>.</p>
+</object>
+:::
